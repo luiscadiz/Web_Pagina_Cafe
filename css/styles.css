@@ -1,0 +1,112 @@
+/*Sacamos los margenes por defecto*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-mug-hot {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header {
+    background-image: url(../img/portada.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+ul {
+    color: #fff;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 15px;
+    /*Separo los elementos */
+}
+
+a {
+    text-decoration: none;
+    /*Le saca el subrayado a los elementos de la linea*/
+    color: #fff;
+    font-size: 20px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #fff;
+}
+
+#historia {
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    background: rgb(95, 95, 95);
+}
+
+/* Seccion Historio */
+.info_izquierda {
+    width: 40%;
+    margin: auto;
+}
+
+.foto_historia {
+    width: 50%;
+    height: 100vh;
+}
+
+.ver_mas {
+    background-color: orange;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* contacto */
+#contacto {
+    height: 20vh;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+}
+
+.footer_centrado {
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+label {
+    font-size: 20px;
+}
